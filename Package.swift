@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Shapes",
+    name: "SwiftUI-Shapes",
     platforms: [.iOS(.v13), .macOS(.v10_15), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(
-            name: "Shapes",
+            name: "SwiftUI-Shapes",
             targets: ["Shapes"]),
     ],
     dependencies: [
